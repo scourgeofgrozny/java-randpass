@@ -13,7 +13,7 @@ public class randpass {
         myTimer.schedule(new TimerTask(){
             @Override
             public void run() {
-                //ll is "letterlower", while lu is "letterupper"    
+                //ll = letterlowercase lu = letteruppercase  
                 char ll = (char)(letter.nextInt(26) + 'a');
                 char lu = (char)(letter.nextInt(26) + 'A');
                 int n = min + num.nextInt(max);
